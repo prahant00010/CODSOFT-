@@ -1,0 +1,53 @@
+#include <iostream>
+
+#include<cstdlib>
+
+#include<ctime>
+
+using namespace std;
+
+
+ int main() {
+
+int rand(void);
+
+int digit=(rand()%100)+1;
+ int guess=0;
+
+
+
+cout<<"enter guss"<<endl;
+
+
+
+while(guess!=digit)
+
+ {
+
+cin>>guess;
+
+ if(guess>digit){
+
+
+cout<<"guessing is too high"<< endl;
+
+ }
+
+else if(guess<digit){
+
+
+
+cout< cout<<"guessing is too low"<<endl;
+
+}
+
+ else{.
+
+ cout<<"guessing the correct number"<<endl;
+ }
+
+}
+
+return 0;
+
+ }

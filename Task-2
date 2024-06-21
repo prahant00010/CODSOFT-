@@ -1,0 +1,49 @@
+#include <iostream>
+
+ using namespace std;
+
+int main() {
+
+
+//aop means arithmetic operation
+
+char aop;
+
+int num1, num2;
+
+cin>>aop;
+
+cin>>num1>> num2;
+
+switch(aop){
+
+case'+':
+
+cout<<"addition of two numbers is:"<<num1+num2<<endl;
+
+break;
+
+case'-':
+
+cout<<"substraction of two numbers is:"<<num1-num2<< endl;
+
+
+break;
+
+case'*':
+
+cout<<"multiplication of two no is:"<<num1*num2 <<endl;
+
+break;
+
+case'/':
+cout<<"division of two numbers is:"<<num1/num2<<endl;
+
+break;
+
+default:
+
+cout<< "invalid arithmetic opertion:"<<endl;
+
+}
+}
